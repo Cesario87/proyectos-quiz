@@ -1,0 +1,224 @@
+/*INDEX*/
+#backgroundLanding {
+    background-image: linear-gradient(to right, rgb(4, 7, 63), rgb(89, 46, 100));
+}
+
+.landingTitle {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 180%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(235, 28, 28);
+    text-shadow: 0px 5px 80px rgb(197, 0, 0);
+    margin: 30% 5% 10% 5%;
+}
+
+.optionsLanding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10%;
+}
+
+#linkLanding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1%;
+    border: solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: white;
+    padding: 4%;
+    width: 80%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#linkLanding:hover {
+    background-image: linear-gradient(to right, rgb(221, 0, 40), rgb(255, 255, 255));
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 60%;
+    font-weight: bold;
+}
+
+/*FIN INDEX*/
+
+/*QUIZ*/
+
+#backgroundQuiz {
+    background-image: linear-gradient(to right, rgb(4, 7, 63), rgb(89, 46, 100));
+}
+
+main {
+    margin: 10% 5%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+legend {
+    font-size: 300%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 300%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(235, 28, 28);
+    text-shadow: 0px 5px 80px rgb(197, 0, 0);
+}
+
+p {
+    color: yellow;
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#preguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12%;
+    border: 0;
+    padding: 10%;
+    width: 90%;
+    margin-top: 10%;
+}
+
+#respuestas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 3% 0%;
+    border: solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: white;
+    padding: 4%;
+    width: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    
+    font-weight: bolder;
+    width: 100%;
+}
+
+label {
+    cursor: pointer;
+}
+
+#respuestas:hover {
+    background-image: linear-gradient(to right, rgb(221, 0, 40), rgb(255, 255, 255));
+} 
+
+input {
+    /*appearance: none;*/
+}
+
+button {
+    padding: 5%;
+    font-size: 150%;
+    background-color: rgb(176, 241, 78);
+    border: solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+@media screen and (min-width: 768px) and (max-width:1366px) {
+    main {
+        margin: 2% 1%;
+        width: 90%;
+    }
+
+    #preguntas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+
+        margin-top: 5%;
+        margin-right: 0%;
+    }
+
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 12%;
+        border: 0;
+        padding: 10%;
+        width: 100%;
+        margin-top: 10%;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .landingTitle {
+        text-align: center;
+        margin-top: 10%;
+        font-size: 180%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(235, 28, 28);
+        text-shadow: 0px 5px 80px rgb(197, 0, 0);
+        margin: 10% 5% 1% 5%;
+    }
+    
+    .optionsLanding {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 3%;
+    }
+
+    main {
+        margin: 5% 0%;
+    }
+
+    #preguntas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    
+        margin-top: 0%;
+        margin-right: 18%;
+    }
+    
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 12%;
+        border: 0;
+        padding: 0%;
+        width: 150%;
+        margin-top: 0%;
+    }
+    
+    #respuestas {
+        font-size: 250%;  
+    }
+    }
+   
