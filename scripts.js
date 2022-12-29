@@ -113,7 +113,7 @@ if (document.title == "Quiz") {
         }
       }
       console.log(counter);
-      document.getElementById("marcador").innerHTML = counter + "/10 correct answers";
+      document.getElementById("marcador").innerHTML = counter + "/8 correct answers";
     });
 
 
